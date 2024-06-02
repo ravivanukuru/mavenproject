@@ -36,6 +36,7 @@ public class AppTest
     {
         assertTrue( true );
         System.out.println( "MAVEN PROJECT" );
+        System.out.println( "MAVEN PROJECT RE-COMMIT" );
 
     }
 }
