@@ -12,5 +12,6 @@ public class App
         System.out.println( "MAVEN PROJECT" );
         System.out.println( "MAVEN PROJECT TEST2" );
         System.out.println( "MAVEN PROJECT TEST3" );
+        System.out.println( "MAVEN PROJECT MergeT" );
     }
 }
