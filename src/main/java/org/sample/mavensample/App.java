@@ -10,5 +10,7 @@ public class App
     {
         System.out.println( "Hello World!" );
         System.out.println( "MAVEN PROJECT" );
+        System.out.println( "MAVEN PROJECT TEST" );
+        System.out.println( "MAVEN PROJECT TEST2" );
     }
 }
