@@ -83,17 +83,6 @@
         <configuration>
             <mainClass>org.sample.mavensample.App</mainClass>
         </configuration>
-       
-        <dependencies>
-          <dependency>
-             <groupId>org.sample</groupId>
-  <artifactId>mavensample</artifactId>
-  <version>0.0.1</version>
-            <type>jar</type>
-          </dependency>
-        </dependencies>
-        
-        
     </plugin>
 		
       </plugins>
