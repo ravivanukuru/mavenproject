@@ -1,6 +1,5 @@
 package org.sample.mavensample;
 
-import org.junit.Test;
 
 /**
  * Hello world!

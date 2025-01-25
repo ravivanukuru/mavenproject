@@ -18,14 +18,17 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-
+  
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version> <!-- or any other version of JUnit 4 -->
+        <scope>test</scope>
     </dependency>
-  </dependencies>
+</dependencies>
+
+ 
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -75,7 +78,6 @@
         <executions>
             <execution>
                 <goals>
-					  <goal>exec</goal>
                     <goal>java</goal>
                 </goals>
             </execution>
